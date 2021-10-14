@@ -1,30 +1,23 @@
-fx_version 'adamant'
-game 'gta5'
-lua54 'no'
+fx_version "adamant"
+game "gta5"
 
-name 'CMX STATUS HUD v3'
-description 'STATUS HUD FOR FIVEM'
-author '! canarioᵈᵉᵛ#0001'
-version '1.2.0'
+name "c-hudv2"
+description "esx_status hud for FiveM"
+author "Jaareet#0097"
+version "1.5.0"
 
-ui_page ('html/index.html')
-files (
-    {
-        '**/**/*.js',
-        '**/**/*.png',
-        '**/**/*.css',
-        '**/*.html'
-    }
-)
+ui_page {
+    "html/index.html" 
+}
 
-client_scripts (
-    {
-        'client/*.lua'
-    }
-)
+files {
+    "**/**/*.*",
+}
 
-shared_scripts (
-    {
-        'config/*.lua'
-    }
-)
+client_scripts {
+    "client/*.lua"
+}
+
+shared_scripts {
+    "config/*.lua"
+}
